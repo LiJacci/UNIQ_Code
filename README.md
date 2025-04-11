@@ -7,7 +7,7 @@ For **NR mode**:
   
   Then: `python compute_quality.py` to evaluate distorted point clouds.
   
-  We give the k-fold pristine model in the folder 'perdataset_pristine'. Please read 'README.txt' to use them.
+  We give the k-fold pristine model in the folder 'perdataset_pristine'. Please read 'README.txt' in the folder to use them.
 
 For **RR mode**:
 
