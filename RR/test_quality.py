@@ -80,7 +80,6 @@ def main():
 
     test_list = os.listdir(args.filedirs)
     test_pc = [item for item in test_list if os.path.isdir(os.path.join(args.filedirs, item))]
-    test_pc = test_pc[0:2]
 
     def process_pc(args, pc, file_paths, update_func=None):
         quality_one = []
@@ -120,7 +119,6 @@ def main():
             process_pc(args, pc, file_paths)
 
         elif args.dataset == 'ls-pcqa':
-            file_paths = file_paths[0:2]
             csv_path = os.path.join(args.outf, 'score.csv')
             os.makedirs(os.path.dirname(csv_path), exist_ok=True)
             if not os.path.exists(csv_path):
