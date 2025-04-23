@@ -3,7 +3,7 @@ This repository contains the source code of UNIQ.
 
 For **NR mode**:
 
-  use: `python pristine.py` to build the pristine parameters. 
+  Use: `python pristine.py` to build the pristine parameters. 
   
   Then: `python compute_quality.py` to evaluate distorted point clouds.
   
@@ -11,7 +11,7 @@ For **NR mode**:
 
 For **RR mode**:
 
-  use: `python reference.py` to build the reference parameters.
+  Use: `python reference.py` to build the reference parameters.
   
   Then: `python test_quality.py` to evaluate distorted point clouds.
   
