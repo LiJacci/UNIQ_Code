@@ -11,7 +11,5 @@ For **NR mode**:
 
 For **RR mode**:
 
-  Use: `python reference.py` to build the reference parameters.
-  
-  Then: `python test_quality.py` to evaluate distorted point clouds.
+  The code will be available soon.
   
